@@ -21,6 +21,7 @@ while id_to_token == id_to_token:
             print(Fore.GREEN + '[+] VALID' + ' ' + token)
             f = open('hit.txt', "a+")
             f.write(f'{token}\n')
+            print(token)
         else:
             print(Fore.RED + '[-] INVALID' + ' ' + token)
     finally:
